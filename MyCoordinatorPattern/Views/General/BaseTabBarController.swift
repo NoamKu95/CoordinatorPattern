@@ -19,6 +19,8 @@ class BaseTabBarController: UITabBarController {
     // MARK: - init
     init(currentUser: User, coordinator: RootCoordinator) {
         self.coordinator = coordinator
+        homepageCoordinator.parent = coordinator
+        profileCoordinator.parent = coordinator
         super.init(nibName: "BaseTabBarController", bundle: nil)
     }
     

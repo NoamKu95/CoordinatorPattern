@@ -10,7 +10,7 @@ import UIKit
 class ProfileViewController: UIViewController {
 
     // MARK: - Variables
-    weak var viewModel: ProfileViewModel!
+    var viewModel: ProfileViewModel!
     
     
     // MARK: - lifecycle
