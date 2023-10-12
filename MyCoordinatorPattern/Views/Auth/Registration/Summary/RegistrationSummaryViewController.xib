@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegistrationSummaryViewController" customModule="MyCoordinatorPattern" customModuleProvider="target">
+            <connections>
+                <outlet property="summaryLbl" destination="PJM-eA-BZe" id="NNS-mv-YWf"/>
+                <outlet property="view" destination="iN0-l3-epB" id="t3L-5U-myw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vy6-Lc-ot2">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="298.33333333333331"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="summry of selections" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJM-eA-BZe">
+                    <rect key="frame" x="115" y="360.33333333333331" width="163" height="20.333333333333314"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So this is you:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Yy-f2-4A1">
+                    <rect key="frame" x="111" y="315.33333333333331" width="171" height="30"/>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lp-zl-VmQ">
+                    <rect key="frame" x="127.66666666666667" y="405.66666666666669" width="137.66666666666663" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Sign Up"/>
+                    <connections>
+                        <action selector="signUpTapped:" destination="-1" eventType="touchUpInside" id="Jo5-ch-Qw9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11W-aX-swb">
+                    <rect key="frame" x="127.66666666666667" y="455.66666666666669" width="137.66666666666663" height="34.333333333333314"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Back"/>
+                    <connections>
+                        <action selector="backBtnTapped:" destination="-1" eventType="touchUpInside" id="cEF-sn-JhH"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="11W-aX-swb" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.35" id="0KE-NZ-kOF"/>
+                <constraint firstItem="3Yy-f2-4A1" firstAttribute="top" secondItem="Vy6-Lc-ot2" secondAttribute="bottomMargin" constant="25" id="2bH-t4-23U"/>
+                <constraint firstItem="11W-aX-swb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5jR-Sa-2kD"/>
+                <constraint firstItem="PJM-eA-BZe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="CGZ-HE-xGg"/>
+                <constraint firstItem="7lp-zl-VmQ" firstAttribute="top" secondItem="PJM-eA-BZe" secondAttribute="bottom" constant="25" id="IrA-MI-lmc"/>
+                <constraint firstItem="Vy6-Lc-ot2" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.35" id="Oly-ou-9XO"/>
+                <constraint firstItem="Vy6-Lc-ot2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="RQT-5e-PiS"/>
+                <constraint firstItem="Vy6-Lc-ot2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="UpE-2x-97h"/>
+                <constraint firstItem="PJM-eA-BZe" firstAttribute="top" secondItem="3Yy-f2-4A1" secondAttribute="bottom" constant="15" id="Vba-xA-KLG"/>
+                <constraint firstItem="11W-aX-swb" firstAttribute="top" secondItem="7lp-zl-VmQ" secondAttribute="bottom" constant="15" id="X6c-iC-Ugk"/>
+                <constraint firstItem="3Yy-f2-4A1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="g2b-gg-3zC"/>
+                <constraint firstItem="7lp-zl-VmQ" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.35" id="g7Q-mh-JeU"/>
+                <constraint firstItem="7lp-zl-VmQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="xyl-Vv-cV8"/>
+                <constraint firstAttribute="trailing" secondItem="Vy6-Lc-ot2" secondAttribute="trailing" id="z20-1m-fM2"/>
+            </constraints>
+            <point key="canvasLocation" x="83" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
