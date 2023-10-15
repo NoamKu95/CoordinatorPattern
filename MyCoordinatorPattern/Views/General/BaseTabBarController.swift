@@ -33,6 +33,10 @@ class BaseTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        for item in [homepageCoordinator, profileCoordinator] {
+            coordinator?.addChildCoordinator(item as? Coordinator)
+        }
+        
         homepageCoordinator.start()
         profileCoordinator.start()
         

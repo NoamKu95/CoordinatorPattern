@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GoalsSelectionViewController" customModule="MyCoordinatorPattern" customModuleProvider="target">
             <connections>
+                <outlet property="goalsTable" destination="hhN-ka-qYe" id="PRq-g0-35c"/>
                 <outlet property="view" destination="iN0-l3-epB" id="iBY-u6-S2w"/>
             </connections>
         </placeholder>

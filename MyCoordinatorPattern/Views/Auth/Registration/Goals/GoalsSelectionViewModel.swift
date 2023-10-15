@@ -13,6 +13,7 @@ class GoalsSelectionViewModel {
     weak var coordinator: LogisterCoordinator?
     
     var user: User
+    var tableData: [String] = ["Goal 1", "Goal 2", "Goal 3"]
     
     
     // MARK: - init

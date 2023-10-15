@@ -13,6 +13,7 @@ class WeightSelectionViewModel {
     weak var coordinator: LogisterCoordinator?
     
     var user: User
+    let pickerData: [String] = (50...125).map { String($0) }
     
     
     // MARK: - init

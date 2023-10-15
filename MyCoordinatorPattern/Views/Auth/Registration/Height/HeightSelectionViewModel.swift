@@ -13,6 +13,7 @@ class HeightSelectionViewModel {
     weak var coordinator: LogisterCoordinator?
     
     var user: User
+    let pickerData: [String] = (150...195).map { String($0) }
     
     
     // MARK: - init

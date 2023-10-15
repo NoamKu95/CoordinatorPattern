@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeightSelectionViewController" customModule="MyCoordinatorPattern" customModuleProvider="target">
             <connections>
+                <outlet property="heightPicker" destination="ERu-6G-rka" id="Hy7-2U-0PJ"/>
                 <outlet property="view" destination="iN0-l3-epB" id="6a3-ba-9rh"/>
             </connections>
         </placeholder>
@@ -47,7 +48,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ERu-6G-rka">
-                    <rect key="frame" x="0.0" y="495" width="393" height="216"/>
+                    <rect key="frame" x="0.0" y="495.33333333333326" width="393" height="216"/>
                 </pickerView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EdW-dw-MhW">
                     <rect key="frame" x="216" y="776.33333333333337" width="137.66666666666663" height="35"/>

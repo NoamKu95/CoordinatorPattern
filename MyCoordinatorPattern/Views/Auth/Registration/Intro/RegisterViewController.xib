@@ -24,13 +24,13 @@
                     <color key="backgroundColor" name="AccentColor"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tell us about yourself" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vFk-Qo-iVe">
-                    <rect key="frame" x="41.666666666666657" y="323.33333333333331" width="310" height="36"/>
+                    <rect key="frame" x="41.666666666666657" y="343.33333333333331" width="310" height="36"/>
                     <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7me-lR-xCI">
-                    <rect key="frame" x="29.333333333333343" y="384.33333333333331" width="334.33333333333326" height="107.66666666666669"/>
+                    <rect key="frame" x="29.333333333333343" y="404.33333333333331" width="334.33333333333326" height="107.66666666666669"/>
                     <attributedString key="attributedText">
                         <fragment content="To give you a better experience and results we need to know a few details about you">
                             <attributes>
@@ -42,7 +42,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47Q-TS-DKb">
-                    <rect key="frame" x="116.66666666666669" y="552" width="160" height="44"/>
+                    <rect key="frame" x="116.66666666666669" y="572" width="160" height="44"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" title="Let's Go" imagePadding="10">
                         <imageReference key="image" image="arrowshape.right.fill" catalog="system" symbolScale="large"/>
@@ -71,11 +71,10 @@
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="vFk-Qo-iVe" firstAttribute="top" secondItem="6fs-ch-V09" secondAttribute="bottom" constant="25" id="09o-bC-rD0"/>
+                <constraint firstItem="vFk-Qo-iVe" firstAttribute="top" secondItem="6fs-ch-V09" secondAttribute="bottom" constant="45" id="09o-bC-rD0"/>
                 <constraint firstItem="6fs-ch-V09" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4g2-kj-fdU"/>
                 <constraint firstItem="seC-qQ-agQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9Nw-Pm-HLH"/>
                 <constraint firstItem="47Q-TS-DKb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="AWG-Ua-srL"/>
-                <constraint firstItem="vFk-Qo-iVe" firstAttribute="top" secondItem="6fs-ch-V09" secondAttribute="bottom" constant="25" id="FKZ-Ec-PVo"/>
                 <constraint firstItem="47Q-TS-DKb" firstAttribute="top" secondItem="7me-lR-xCI" secondAttribute="bottom" constant="60" id="GId-Md-XYW"/>
                 <constraint firstItem="6fs-ch-V09" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.35" id="I1I-HO-9zw"/>
                 <constraint firstItem="7me-lR-xCI" firstAttribute="top" secondItem="vFk-Qo-iVe" secondAttribute="bottom" constant="25" id="JE7-2g-ciE"/>
